@@ -1,0 +1,31 @@
+header {
+  padding: 3.5rem 2rem;
+  font-family: Raleway,Helvetica,sans-serif;
+  text-transform: uppercase;
+  color: white;
+
+  h1 {
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1.25em;
+    letter-spacing: .075em;
+
+
+    &:after {
+      background: #ddd;
+      content: '';
+      display: block;
+      height: 2px;
+      margin: .75em auto 0;
+      position: relative;
+      width: 4em;
+    }
+  }
+
+  p {
+    margin-top: 1em;
+    letter-spacing: .05em;
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+}
