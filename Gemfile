@@ -10,7 +10,6 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "3.2.1"
-gem "html-proofer"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -20,5 +19,4 @@ gem "html-proofer"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
-    gem 'jekyll-livereload'
 end
