@@ -1,9 +1,9 @@
 name: Jerome Lachaud
-job-title: front end developer
+job-title: web developer
 email: jerome.lachaud+identity@gmail.com
 description: >
-  Jerome Lachaud is my name. I am a front-end developer based in London. I am currently working for Kahoot!
-keywords: jerome lachaud, javascript, react, html, css, scss front-end developer, front-end, web developer, london, Kahoot!
+  Jerome Lachaud is my name. I am a Web Developer based in Brive La Gaillarde. I am currently working for Fasterize
+keywords: jerome lachaud, javascript, react, full-stack, html, css, express, web developer, front-end, web developer, Brive La Gaillarde, Fasterize
 baseurl: # the subpath of your site, e.g. /blog
 url: "http://jeromelachaud.io" # the base hostname & protocol for your site
 linkedin-url: https://www.linkedin.com/in/jeromelachaud/
