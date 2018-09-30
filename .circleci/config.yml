@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/2.5.0p0
+      - image: circleci/2.5.0
     working_directory: ~/repo
     environment:
       NOKOGIRI_USE_SYSTEM_LIBRARIES: true
