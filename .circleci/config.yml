@@ -8,6 +8,7 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/ruby:2.5.0-stretch
+    working_directory: ~/jeromelachaud.github.io
     environment:
       NOKOGIRI_USE_SYSTEM_LIBRARIES: true
     steps:
