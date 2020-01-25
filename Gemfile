@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -9,7 +8,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.8.4"
+gem "jekyll", "~> 4.0"
 gem 'html-proofer'
 gem 'rake'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

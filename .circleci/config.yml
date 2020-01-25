@@ -1,13 +1,8 @@
-# Ruby CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-ruby/ for more details
-#
 version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
-      - image: circleci/ruby:2.5.0-stretch
+      - image: circleci/ruby:2.6.3
     working_directory: ~/jeromelachaud.github.io
     environment:
       NOKOGIRI_USE_SYSTEM_LIBRARIES: true
@@ -22,7 +17,7 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: install dependencies
+          name: Install dependencies
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
 
@@ -33,5 +28,5 @@ jobs:
 
       # run tests!
       - run:
-          name: run tests
-          command: rake test
+          name: Run tests
+          command: bundle exec rake test
