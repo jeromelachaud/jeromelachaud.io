@@ -4,7 +4,7 @@
 @charset "utf-8";
 @import "normalize";
 @import "icons";
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800&display=swap");
 
 @import "main";
 @import "header";
@@ -13,12 +13,12 @@
 body {
   min-width: 320px;
   min-height: 100vh;
-  line-height: 1.0;
+  line-height: 1;
   word-wrap: break-word;
   overflow-x: hidden;
 
   &::before {
-    content: '';
+    content: "";
     display: block;
     position: fixed;
     top: 0;
@@ -30,7 +30,7 @@ body {
     transform: scale(1);
     background-color: #313a3d;
     background-attachment: fixed, fixed;
-    background-image: url('/img/overlay.png'), url('/img/bg.jpg');
+    background-image: url("/img/overlay.png"), url("/img/bg.jpg");
     background-position: top left, center center;
     background-repeat: repeat, none;
     background-size: auto, cover;

@@ -5,7 +5,7 @@ description: >
   Jerome Lachaud is my name. I am a Web Developer based in Brive La Gaillarde. I am currently working for Fasterize
 keywords: jerome lachaud, javascript, react, full-stack, html, css, express, web developer, front-end, web developer, Brive La Gaillarde, Fasterize
 baseurl: # the subpath of your site, e.g. /blog
-url: "http://jeromelachaud.io" # the base hostname & protocol for your site
+url: "http://jeromelachaud.com" # the base hostname & protocol for your site
 linkedin-url: https://www.linkedin.com/in/jeromelachaud/
 github-url: https://github.com/jeromelachaud
 
