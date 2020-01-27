@@ -30,9 +30,19 @@ body {
     transform: scale(1);
     background-color: #313a3d;
     background-attachment: fixed, fixed;
-    background-image: url("/img/overlay.png"), url("/img/bg.jpg");
     background-position: top left, center center;
     background-repeat: repeat, none;
     background-size: auto, cover;
+  }
+}
+
+.no-webp body {
+  &::before {
+    background-image: url("/img/overlay.png"), url("/img/bg.jpg");
+  }
+}
+.webp body {
+  &::before {
+    background-image: url("/img/overlay.webp"), url("/img/bg.webp");
   }
 }
