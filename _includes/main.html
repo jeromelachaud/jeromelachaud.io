@@ -1,12 +1,14 @@
 <main>
   <header>
     <h1>{{ site.name }}</h1>
-    <p>{{ site.job-title }}</p>
+    <h2>{{ site.job-title }}</h2>
   </header>
   <footer>
     <a
       class="link"
       href="{{ site.github-url}}"
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="Jerome Lachaud Github"
     >
       <i class="icon github"></i>
@@ -14,9 +16,29 @@
     <a
       class="link"
       href="{{ site.linkedin-url }}"
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="Jerome Lachaud LinkedIn"
     >
       <i class="icon linkedin"></i>
+    </a>
+    <a
+      class="link"
+      href="{{ site.stackoverflow-url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Jerome Lachaud Stackoverflow"
+    >
+      <i class="icon stackoverflow"></i>
+    </a>
+    <a
+      class="link"
+      href="{{ site.projects-url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Jerome Lachaud Personal Projects"
+    >
+      <i class="icon projects"></i>
     </a>
   </footer>
 </main>
