@@ -7,8 +7,13 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800&display=swap");
 
 @import "main";
+@import "contact";
 @import "header";
 @import "footer";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   min-width: 320px;
